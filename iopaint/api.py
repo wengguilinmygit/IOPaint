@@ -31,7 +31,6 @@ from fastapi.staticfiles import StaticFiles
 from loguru import logger
 from socketio import AsyncServer
 
-from iopaint.file_manager import FileManager
 from iopaint.helper import (
     load_img,
     decode_base64_to_image,
@@ -62,6 +61,8 @@ from iopaint.schema import (
     InteractiveSegModel,
     RealESRGANModel,
 )
+
+from iopaint.file_manager.file_manager import FileManager
 
 CURRENT_DIR = Path(__file__).parent.absolute().resolve()
 WEB_APP_DIR = CURRENT_DIR / "web_app"

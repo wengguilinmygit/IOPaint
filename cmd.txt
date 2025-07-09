@@ -1,0 +1,4 @@
+iopaint run --model=lama --device=cpu \
+--image=/Users/ringring/Downloads/weng/GoogleDrive/tmp/Gemini_Generated_Image_vurew4vurew4vure.png \
+--mask=/Users/ringring/Downloads/weng/GoogleDrive/masks/Gemini_Generated_Image_vurew4vurew4vure.png \
+--output=/Users/ringring/Downloads/weng/GoogleDrive/output
